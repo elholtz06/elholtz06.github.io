@@ -1,0 +1,165 @@
+/* STYLE SECTIONING TAGS */
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Oswald&family=Quattrocento&display=swap');
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+.container {
+  position: relative;
+  padding-top:3em;
+  padding-bottom:4em;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  text-align: center;
+  justify-content: center;
+  background-color:#FFFFFF;
+  color:black;
+}
+.container::before {
+  content: "";
+  background-image: url("assets/weld.jpg");
+  background-size: cover;
+  position: absolute;
+  background-attachment: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.25;
+}
+
+body {
+  background-color:#9BC7FF;
+}
+header{padding-left:1%;
+      background-color:#1C4880;}
+footer {text-align:center;
+        padding:10px;}
+
+/* STYLE TEXT */
+h1 {
+  font-size: 250%;  
+  color: white;
+  padding: 5px;
+  font-family: 'Oswald', sans-serif;
+}
+h2 {
+  font-size: 500%;
+  font-family: 'Oswald', sans-serif;
+  padding: 10px;
+  text-align: center;
+  margin-top:10px;
+}
+h3 {
+  font-size: 400%;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  margin-top:4%;
+}
+h4 {
+  font-size: 350%;
+  font-family: 'Quattrocento', serif;
+  margin-left: 10%;
+}
+h5{
+  font-size: 300%;
+  font-family: 'Quattrocento', serif;
+  margin-left:20%;
+  margin-right:20%;
+  position: relative;
+}
+h6 {
+  font-size: 150%;
+  font-family: 'Quattrocento', serif;
+  text-align:center;
+  margin-top: 10px;
+}
+p {
+  color:black;
+  font-size: 200%;
+  padding: 5px;
+  font-family: 'Quattrocento', serif;
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#mission {
+  position: relative;
+  font-size: 600%;
+  padding: 10px;
+}
+
+#hs1 {text-align: center;}
+#source1 {padding:110px;}
+
+/* STYLE IMAGES */
+.imgskl{
+  max-width:250px;
+  max-height:250px;
+  border-radius:50%;
+  margin-top:-2em;
+}
+
+/* STYLE NAV BAR */
+nav{
+  text-align:center;
+}
+ul {
+  list-style-type: none;
+  background-color:#378FFF;
+  color:black;
+  overflow: hidden;
+  padding: 1em;
+  font-family: 'Oswald', sans-serif;
+}
+li {
+  display: inline;
+}
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+  padding: 1em;
+}
+li a:hover {
+  background-color: #1C4880;
+}
+
+/* STYLE BUTTONS */
+.quesInput{
+  text-align:center;
+  background:#1C4880;
+  color:white;
+  border-radius: 10px;
+  border-style:none;
+  padding:15px;
+  margin-top:30px;
+  margin-left:35%;
+  margin-right:35%;
+  font-family: 'Quattrocento', serif;
+  font-size:100%;
+  line-height:1.2em;
+}
+
+/* ADD MORE! */
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding:10%;
+  justify-content:center;
+}
+.row2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flex-item {
+  flex-basis: 100%;
+  margin: 1%;
+}
